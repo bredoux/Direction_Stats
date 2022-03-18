@@ -1,0 +1,41 @@
+/* Barre de navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+}
+header ul {
+    position: relative;
+    display: flex;
+    margin-right: 70%;
+    font-size: 25px;
+    -webkit-transition: blue;
+
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+    transition: all 0.4s;
+}
+li:hover{
+    transform: scale(1.2);
+
+}
